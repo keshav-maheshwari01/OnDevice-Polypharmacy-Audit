@@ -1,0 +1,22 @@
+# dataset (large, and ePillID has its own download and license)
+data/
+
+# model files
+models/*.pt
+models/*_backup.pt
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# jupyter
+.ipynb_checkpoints/
+
+# editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
